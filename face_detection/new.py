@@ -22,4 +22,6 @@ def detect(img):
 
 # detect(img)
 detect(img2)
+
+# NOTE - increasing minNeighbours reduces the noise (less faces detected)
 cv.waitKey(0)
